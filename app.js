@@ -4,7 +4,7 @@ var express = require("express"),
 mongoose = require("mongoose"),
 passport = require("passport"),
  LocalStrategy = require("passport-local"),
- User = require("./models/user")
+User = require("./models/user")
 
 mongoose.connect("mongodb://localhost/yelp_camp_v3");
 app.use(bodyParser.urlencoded({extended: true}));
